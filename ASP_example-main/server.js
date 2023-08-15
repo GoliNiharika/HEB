@@ -7,4 +7,5 @@ corsAnywhere.createServer({
   originWhitelist: [], // Allow all origins
 }).listen(port, host, () => {
   console.log(`CORS Anywhere listening on ${host}:${port}`);
+  
 });
